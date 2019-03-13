@@ -89,6 +89,10 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1580439208726366');
   fbq('track', 'PageView');
+  fbq('track','ViewContent',{
+  	content_type: 'vehicle',
+  	content_ids: ['test'],
+  });
 </script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1580439208726366&ev=PageView&noscript=1"
