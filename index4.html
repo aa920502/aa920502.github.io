@@ -4,30 +4,12 @@
 <meta charset="UTF-8">
 <title>vdp</title>
 
-<!-- Facebook Pixel Code -->
 <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=392598358003354&ev=PageView&noscript=1"
-      /></noscript>
-      <!-- End Facebook Pixel Code -->
-
-<script>
-	function create_microdata(data, callback){
+	function create_microdata(data){
 		var el = document.createElement('script');
 		el.type = 'application/ld+json';
 		el.text = JSON.stringify(data);
-        document.querySelector('head').appendChild(el);
-        callback();
+		document.querySelector('head').appendChild(el);
 	}
 </script>
 
@@ -102,17 +84,27 @@
             }
         ]
     };
-    create_microdata(data, function(){
-        fbq('init', '392598358003354');
-        fbq('track', 'PageView');
-        fbq('track', 'ViewContent', {
-            content_type: 'vehicle', 
-            content_ids: ['May13Test1'],
-        });
-    });
+    create_microdata(data);
 </script>
 
-
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '392598358003354');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {content_type: 'vehicle', content_ids: ['May13Test1'],});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=392598358003354&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
 </head>
 
