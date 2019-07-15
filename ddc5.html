@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <title>vdp</title>
 
+<script>
+	function create_microdata(data){
+		var el = document.createElement('script');
+		el.type = 'application/ld+json';
+		el.text = JSON.stringify(data);
+		document.querySelector('head').appendChild(el);
+	}
+</script>
+
 <script type="application/ld+json">
     [
         {
