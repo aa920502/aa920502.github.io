@@ -7,46 +7,69 @@
 <script type="application/ld+json">
 	[
 		{
+			"@context": "http://schema.org",
+			"@type": "WebSite",
+			"@id": "#website",
+			"url": "https://www.dickhannahnissan.com/",
+			"name": "Dick Hannah Nissan | Portland Nissan Dealer",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://www.dickhannahnissan.com/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		},
+		{
+			"@context": "http://schema.org",
+			"@type": "Organization",
+			"url": "https://www.dickhannahnissan.com/for-sale/",
+			"sameAs": [
+				"https://www.facebook.com/DickHannahNissan/",
+				"https://plus.google.com/u/1/104011624370501118717",
+				"https://www.youtube.com/channel/UCl3YuHRrz0WCg1On2zh0Itg",
+				"https://twitter.com/DHNissan"
+			],
+			"@id": "#organization",
+			"name": "Dick Hannah Nissan",
+			"logo": "http://www.dickhannahnissan.com/files/2018/04/N6ySvMLS_400x400.jpg"
+		},
+		{
 			"@context": "https://schema.org",
 			"@type": "Vehicle",
-			"@id": "WUAKBAFXXL7900092",
-			"description": "Explore the 2020 Audi R8 5.2 V10 performance at Audi West Houston in Houston, TX. VIN: WUAKBAFXXL7900092",
-			"vehicleIdentificationNumber": "WUAKBAFXXL7900092",
-			"name": "2020 Audi R8",
+			"@id": "N19085",
+			"vehicleIdentificationNumber": "1N4BL4DW9KN302503",
+			"name": "2019 Nissan Altima",
+			"description": "Features include: Lane Departure Warning - Intelligent Forward Collision Warning - Rear Cross Traffic Alert - Blind Spot Warning - Moon Roof - Alloy Wheels - Heated Steering Wheel - Heated Seat - Power Seat - Backup Camera - Keyless Start - SiriusXM Satellite Radio Ready - Bluetooth Wireless - Air Conditioning - Keyless entry - MP3 CD Player - Power door locks, windows, and mirrors.Advertised price includes $1,500 Nissan Customer Cash.  Additional rebates may be available for those who qualify. Rebate(s) may differ when leasing through NMAC. Advertised price does not include dealer installed accessories. Offer expires 7/31/2019.   ",
+			"bodyType": "SEDAN",
+			"mileageFromOdometer": {
+				"@type": "QuantitativeValue",
+				"unitText": "MI",
+				"value": 13
+			},
+			"image": "http://vehicle-photos-published.vauto.com/ac/d4/f8/4a-9146-4c34-aa42-a73a7bce8482/image-1.jpg",
+			"offers": {
+				"@type": "Offer",
+				"priceCurrency": "USD",
+				"price": "28337"
+			},
 			"url": "https://aa920502.github.io/test.html",
 			"brand": {
 				"@type": "Brand",
-				"name": "Audi"
+				"name": "Nissan"
 			},
 			"model": {
 				"@type": "ProductModel",
-				"name": "R8"
+				"name": "Altima"
 			},
 			"additionalProperty": [
 				{
 					"@type": "PropertyValue",
 					"propertyID": "state_of_vehicle",
-					"value": "new"
+					"value": "New"
 				},
 				{
 					"@type": "PropertyValue",
 					"propertyID": "exterior_color",
-					"value": "Mythos Black Metallic"
-				},
-				{
-					"@type": "PropertyValue",
-					"propertyID": "year",
-					"value": 2020
-				},
-				{
-					"@type": "PropertyValue",
-					"propertyID": "latitude",
-					"value": 29.78
-				},
-				{
-					"@type": "PropertyValue",
-					"propertyID": "longitude",
-					"value": -95.66
+					"value": "Blue Metallic"
 				},
 				{
 					"@type": "PropertyValue",
@@ -55,42 +78,30 @@
 						"@type": "AutoDealer",
 						"address": {
 							"@type": "PostalAddress",
-							"addressLocality": "Houston",
-							"addressRegion": "TX",
-							"postalCode": "77094",
-							"streetAddress": "15865 Katy Fwy",
+							"addressLocality": "Gladstone",
+							"addressRegion": "OR",
+							"postalCode": "97027",
+							"streetAddress": "19505 SE McLoughlin Blvd",
 							"addressCountry": "US"
 						}
 					}
+				},
+				{
+					"@type": "PropertyValue",
+					"propertyID": "latitude",
+					"value": 45.378342
+				},
+				{
+					"@type": "PropertyValue",
+					"propertyID": "longitude",
+					"value": -122.603767
+				},
+				{
+					"@type": "PropertyValue",
+					"propertyID": "year",
+					"value": 2019
 				}
-			],
-			"mileageFromOdometer": {
-				"@type": "QuantitativeValue",
-				"unitCode": "SMI",
-				"value": 42
-			},
-			"offers": {
-				"@type": "Offer",
-				"priceCurrency": "USD",
-				"price": "216245"
-			},
-			"bodyType": "COUPE",
-			"image": [
-				"https://pictures.dealer.com/m/momentumaudiaoa/0880/0ada6c0c731334ad2af8059fed7c6d81x.jpg?impolicy=resize&w=768",
-				"https://pictures.dealer.com/m/momentumaudiaoa/1198/2017b932574fdfae3d8ee2dc0941bc70x.jpg?impolicy=resize&w=768",
-				"https://pictures.dealer.com/m/momentumaudiaoa/1891/1125bc95b0a04154cff4b40ca17dfbd1x.jpg?impolicy=resize&w=768",
-				"https://pictures.dealer.com/m/momentumaudiaoa/1071/ca9992cd8d2e048422617badd5ed70ffx.jpg?impolicy=resize&w=768"
 			]
-		},
-		{
-			"@context": "http://schema.org",
-			"@type": "WebSite",
-			"url": "https://www.audiwest.com",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://www.audiwest.com/all-inventory/index.htm?category=AUTO&search={search_term_string}",
-				"query-input": "required name=search_term_string"
-			}
 		}
 	]
 	</script>
@@ -107,7 +118,7 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '392598358003354');
   fbq('track', 'PageView');
-  fbq('track', 'ViewContent', {content_type: 'vehicle', content_ids: ['WUAKBAFXXL7900092'],});
+  fbq('track', 'ViewContent', {content_type: 'vehicle', content_ids: ['N19085'],});
 </script>
 <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=392598358003354&ev=PageView&noscript=1"
