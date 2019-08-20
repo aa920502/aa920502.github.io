@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listings>
+  <listing>
+    <vehicle_offer_id>AS-2018-leasecash</vehicle_offer_id>
+    <make>XXXX</make>
+    <model>XXXXX</model>
+    <year>2019</year>
+    <title>XXXXX</title>
+    <offer_description>XXXXX</offer_description>
+    <Start_Date>2018-5-15T00:00:00-04:00</Start_Date>
+    <End_Date>2018-5-31T23:59:59-04:00</End_Date>
+    <market_name>NEW YORK</market_name>
+    <postal_codes>[94536,94025]</postal_codes>
+    <offer_disclaimer>XXXX </offer_disclaimer>
+    <offer_type>lease</offer_type>
+    <amount_price>269 USD</amount_price>
+    <amount.percentage>0</amount.percentage>
+    <amount_qualifier>MONTH</amount_qualifier>
+    <term_length>36</term_length>          
+    <term_qualifier>month</term_qualifier>
+    <downpayment>3299 USD</downpayment>
+    <downpayment_qualifier>Initial Payment</downpayment_qualifier>
+    <cashback>0 USD</cashback>
+    <url>https://www.choosenissan.com/sentra/</url>
+    <title>2018 Nissan Altima</title>
+     <image>
+            <url>http://example.com/image_1.jpg</url>
+            <tag>TAG 1</tag>
+            <tag>TAG 2</tag>
+        </image>
+        <image>
+            <url>https://example.com/image_2.jpg</url>
+            <tag>TAG 1</tag>
+            <tag>TAG 2</tag>
+        </image>
+  </listing>
+</listings>
